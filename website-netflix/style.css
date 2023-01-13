@@ -1,0 +1,120 @@
+* {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+body {
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(images/netflix\ -\ Pesquisa\ Google.png);
+    margin: 0px;
+}
+
+#background {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.441);
+}
+
+#nav {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#button-entry {
+    padding: 0px;
+    margin: 0px;
+    height: 35px;
+    width: 80px;
+    margin-right: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #e50914;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: normal;
+}
+
+/* Elemento | http://127.0.0.1:5500/aula-udemy/aula1/index.html */
+
+#nav>ul:nth-child(1) {
+    color: #e50914;
+    /* justify-content: unset; */
+    display: flex;
+    list-style: none;
+}
+
+
+.card-center {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    padding-bottom: 130px;
+}
+
+.title {
+    color: white;
+    Margin: 0px;
+}
+
+.title1 {
+    font-size: 3.125rem;
+}
+
+.title2 {
+    font-size: 1.625rem;
+}
+
+.title3 {
+    padding-top: 20px;
+    font-size: 1.5rem;
+}
+
+.title-input {
+    color: white;
+}
+
+.input-place {
+    display: flex;
+    justify-content: center;
+}
+
+.text-input {
+    color: gray;
+}
+
+input {
+    border-radius: 3px;
+    width: 449px;
+}
+
+.main-center {
+    height: 83vh;
+    width: 98vw;
+    display: grid;
+    align-content: center;
+}
+
+button {
+    border-radius: 6px;
+    background-color: red;
+    color: white;
+    border: 0px;
+    text-align: center;
+    font-weight: bolder;
+    width: 120px;
+    font-size: larger;
+    height: 55px;
+    width: 113px;
+}
+
+button:hover {
+    background-color: #f40612;;
+    color: rgb(253, 253, 253);
+}
+
+#image-logo {
+    height: 3.3rem;
+    width: 9.375rem
+}
