@@ -18,7 +18,7 @@
       emailjs.init("cTCC7dCgu8Js6DN9x");
     })();
   </script>
-
+<script src="assets/js/light.js"></script>
   <!--
     - favicon
   -->
@@ -28,6 +28,7 @@
     - custom css link
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/switch.css">
 
   <!--
     - google font link
@@ -100,7 +101,7 @@
             <div class="contact-info">
               <p class="contact-title">Telefone</p>
 
-              <a href="tel:+55981607646" class="contact-link">+55 (85) 98160-7646</a>
+              <a href="tel:+85981607646" class="contact-link">+55 (85) 98160-7646</a>
             </div>
 
           </li>
@@ -199,6 +200,13 @@
             <button class="navbar-link" data-nav-link>Contato</button>
           </li>
 
+          <li class="navbar-item">
+            <label class="switch">
+              <input type="checkbox" class="checkbox" name="theme">
+              <div class="slider"></div>
+            </label>
+          </li>
+
         </ul>
 
       </nav>
@@ -223,7 +231,11 @@
           </p>
 
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas corrupti architecto dolores, culpa expedita accusamus explicabo et ipsa illum neque ratione totam, perspiciatis laborum quasi magnam quae id eligendi temporibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. At vel est quis optio corporis, sapiente alias, inventore voluptatum aliquid nemo nam, dicta reprehenderit autem! Odit quis aliquam magni excepturi distinctio!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas corrupti architecto dolores, culpa expedita
+            accusamus explicabo et ipsa illum neque ratione totam, perspiciatis laborum quasi magnam quae id eligendi
+            temporibus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. At vel est quis optio corporis,
+            sapiente alias, inventore voluptatum aliquid nemo nam, dicta reprehenderit autem! Odit quis aliquam magni
+            excepturi distinctio!
           </p>
         </section>
 
@@ -880,10 +892,12 @@
               <input id="fullname" type="text" name="fullname" class="form-input" placeholder="Nome completo" required
                 data-form-input>
 
-              <input id="email" type="email" name="email" class="form-input" placeholder="Email" required data-form-input>
+              <input id="email" type="email" name="email" class="form-input" placeholder="Email" required
+                data-form-input>
             </div>
 
-            <textarea id="message" name="message" class="form-input" placeholder="Sua mensagem" required data-form-input></textarea>
+            <textarea id="message" name="message" class="form-input" placeholder="Sua mensagem" required
+              data-form-input></textarea>
 
             <button class="form-btn" type="submit" disabled data-form-btn onclick="SendMail()">
               <ion-icon name="paper-plane"></ion-icon>
