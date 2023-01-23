@@ -34,7 +34,7 @@
   }
   
   .checkbox:checked ~ .slider {
-    background-color: hsl(45, 100%, 72%);
+    background-color: hsl(287, 41%, 25%);
   }
   
   .checkbox:active ~ .slider::before {
