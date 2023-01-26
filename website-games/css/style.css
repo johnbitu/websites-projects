@@ -89,7 +89,7 @@ main {
 }
 
 main#main-section {
-    background-image: url(/images/background.png);
+    background-image: url(images/background.png);
     /* background-attachment: fixed; */
     background-position: center;
     padding: 50px;
