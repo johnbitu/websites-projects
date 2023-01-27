@@ -117,3 +117,9 @@
     background-color: #fff;
   }
   
+
+  @media (max-width: 450px) {
+    .button_lg {
+      padding: 13px 25px;
+    }
+  }
