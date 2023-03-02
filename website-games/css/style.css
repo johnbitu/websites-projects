@@ -161,11 +161,11 @@ div#main-text {
 
 
 /* 
-2 PAGINA DE SECTION 
+1 PAGINA DE SECTION 
 */
 
 
-section#section2-main {
+section#section1-main {
     background: #000123;
     padding: 50px;
     display: flex;
@@ -176,7 +176,7 @@ section#section2-main {
     color: white;
 }
 
-#section2-container {
+#section1-container {
 
     align-items: center;
     box-sizing: border-box;
@@ -205,10 +205,55 @@ h1#title-section>a#word-logo {
     font-family: 'Octosquare';
 }
 
-#button-section2 {
+#button-section1 {
     position: relative;
     top: 50px;
 }
+
+/* 
+2 PAGINA DE SECTION 
+*/
+
+section#section2-main {
+    background: #000123;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    height: 100vh;
+    color: white;
+}
+
+#text2-container {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-content: space-between;
+    flex-flow: column;
+    justify-content: center;
+    text-align: left;
+}
+
+h1#title2-section {
+    text-transform: uppercase;
+    width: 400px;
+    font-size: 42px;
+    text-align: left;
+    padding-bottom: 20px;
+    font-family: 'Octosquare';
+    color: #ff0f7b;
+}
+
+#text2-section > p{
+    font-size: 21px;
+    font-family: 'Octosquare';
+    font-stretch: 2px;
+}
+
+/* 
+MENU DE NAVEGAÇÃO
+ */
 
 nav {
     position: fixed;
