@@ -11,6 +11,11 @@
     src: url('Font/upheavtt.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Arcane';
+    src: url('Font/ArcaneNine-eZP1x.ttf') format('truetype');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -101,11 +106,11 @@ main#main-section {
 }
 
 h1 a#logo {
-    color: #fff;
+    color: #ff0000;
     text-align: start;
     font-size: 45px;
     font-weight: 900;
-    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Octosquare', cursive;
 }
 
 #main-logo {
